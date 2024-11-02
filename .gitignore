@@ -1,0 +1,9 @@
+.nimbella
+.deployed
+__deployer__.zip
+__pycache__/
+node_modules
+package-lock.json
+.DS_Store
+# https://developers.google.com/ar/develop/cloud-anchors/management-api Service Accounts Credential (Private Key)
+packages/arcore/getToken/causal-bison-440316-s9-11a019a91062.json 
