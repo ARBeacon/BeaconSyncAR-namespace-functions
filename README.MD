@@ -7,10 +7,15 @@ Location:
 `/packages/arcore/getToken` - Generates short-lived OAuth2 tokens for ARCore API access
 
 ## ⚙️ Configuration
+### 1. Google Cloud Setup
+1. Create a Google Cloud service account with `ARCore API` access
+2. Enable OAuth2 distribution for `ARCore API`
+3. Download the credentials JSON file
 
+### 2. Local Setup
 1. Place your Google Cloud service account credentials file in: 
 `BeaconSyncAR-namespace-functions/packages/arcore/getToken/creds.json`
-2. Set the path in `getToken/__main__.py`:
+2. Set the path in `BeaconSyncAR-namespace-functions/packages/arcore/getToken/__main__.py`:
 ```python
 SERVICE_ACCOUNT_FILE = "creds.json"  # Path relative to function directory
 ```
