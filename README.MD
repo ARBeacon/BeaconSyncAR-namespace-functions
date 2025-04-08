@@ -44,3 +44,5 @@ doctl serverless deploy BeaconSyncAR-namespace-functions
 ## 📄 Usage
 The deployed function will be available at:
 `https://faas-<region>.digitaloceanspaces.com/<namespace>/arcore/getToken`
+
+_Note: This README.md was refined with the assistance of [DeepSeek](https://www.deepseek.com)_
